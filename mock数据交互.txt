@@ -44,3 +44,6 @@ Vue.prototype.$http = axios //Vue.prototype:相当于给vue挂载一个方法 co
 
 
 安装aixos: npm install axios
+
+
+第二次修改文本内容啦
