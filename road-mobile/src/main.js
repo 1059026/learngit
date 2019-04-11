@@ -4,7 +4,6 @@ import Vue from 'vue'
 import router from './router'
 import App from './App'
 import $ from 'jquery'
-import iView from 'iview'
 import axios from 'axios'
 
 Vue.config.productionTip = false
