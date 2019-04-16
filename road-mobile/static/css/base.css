@@ -1,0 +1,20 @@
+/*  Css-reset  */
+body,p,dl,dd{margin:0;font-size:24px;font-family:"微软雅黑";}
+h1,h2,h3,h4,h5,h6,input,figure,form,select{margin:0; padding:0;}
+ol,ul{list-style:none;padding:0;margin:0;}
+a{text-decoration:none;}
+img{border:none;vertical-align:top;}
+textarea,input{margin:0;padding:0;resize:none;overflow:auto;outline:none;}
+body{height:100%; background:#f2f4fb;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.alphaLayer{position:fixed; display:none; z-index:3; width:100%; height:100%; background:#000; opacity:0.5;filter:alpha(opacity=50);}
+.sub_main{width:720px; margin:0 auto;}
+.hide{display:none;}
+
+select{ outline:none; -webkit-appearance: none;/*兼容苹果手机*/ background:url('../images/select_down.png') no-repeat right center;}
+.blue{color:#146bee;}
+.red{color:red;}
+.green{color:green;}
+.dropload-load,.dropload-refresh{font-size:24px;}

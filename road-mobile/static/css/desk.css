@@ -1,0 +1,100 @@
+﻿.topbar{background:#146bee; height:70px; padding-top:30px; line-height:100px; text-align:center;}
+.topbar .img{width:325px; height:40px; }
+.navBox{background:#fff;}
+.navBox li a{display:inline-block; width:178px; height:200px; border:#f2f4fb solid 1px; float:left; text-align:center; line-height:300px; color:#666; font-size:24px;}
+.navBox li:nth-child(2) a,.navBox li:nth-child(3) a,.navBox li:nth-child(4) a,.navBox li:nth-child(6) a,.navBox li:nth-child(7) a,.navBox li:nth-child(8) a{border-left:none; width:179px;}
+.navBox li:nth-child(1) a,.navBox li:nth-child(2) a,.navBox li:nth-child(3) a,.navBox li:nth-child(4) a{border-bottom:none;}
+
+.nav_green{background:url(../images/nav_green.png) no-repeat center 40px;}
+.nav_blue{background:url(../images/nav_blue.png) no-repeat center 40px;}
+.nav_cyan{background:url(../images/nav_cyan.png) no-repeat center 40px;}
+
+.nav_orange{background:url(../images/nav_orange.png) no-repeat center 40px;}
+.nav_pink{background:url(../images/nav_pink.png) no-repeat center 40px;}
+.nav_red{background:url(../images/nav_red.png) no-repeat center 40px;}
+.nav_yellow{background:url(../images/nav_yellow.png) no-repeat center 40px;}
+.nav_purple{background:url(../images/nav_purple.png) no-repeat center 40px;}
+
+.redList{display:block; background:#fff url(../images/red_list_style.png) no-repeat 20px center; padding-left:40px; font-size:30px; height:90px; line-height:90px;}
+
+.chooseCheckList{background:#fff; margin-top:20px; padding:0 20px; }
+.chooseCheckList .unit{height:90px; line-height:90px; border-bottom:#ddd solid 1px;}
+.chooseCheckList .unit img{margin-top:30px; float:left;}
+.chooseCheckList .unit select{width:620px; padding-left:25px; height:65px; line-height:65px; border:none; font-size:30px; color:#000; float:left; margin-top:15px; font-weight:bold; -webkit-appearance: none;/*兼容苹果手机*/}
+.chooseCheckList .checkList{height:90px; line-height:90px; padding-right:20px;}
+.chooseCheckList .checkList span{font-size:24px; color:#666; float:left;}
+.checkList .select{width:483px; cursor:pointer; background:url('../images/select_down.png') no-repeat right center; padding-left:25px; height:50px; line-height:50px; font-size:24px; color:#14abfa; float:left; margin-top:20px;}
+.baseInfo dt,.baseInfo dd{border-bottom:#ddd solid 1px; overflow:hidden; height:80px; line-height:80px; padding:0 20px;}
+.baseInfo dt.redList{padding-left:40px; height:90px; line-height:90px;}
+.baseInfo{background:#fff; margin-top:20px;}
+.leftText{color:#666;}
+.rightText{color:#000;}
+.checkResult{background:#fff; margin-top:20px;}
+.checkResult .total{background:#eef7fb; height:60px; line-height:60px; border-top:#ddd solid 1px; padding:10px 20px;}
+.checkResult select{width:160px; height:60px; line-height:60px; border:none; font-size:24px;}
+.checkRow{height:80px; line-height:80px; padding:0 20px;}
+.checkRow span{color:#666; font-size:20px;}
+.checkRow i{font-style: normal; margin-right:20px;}
+#echarts{height:340px; background:#fff;}
+.chartInfo{background:#fff; margin-top:10px;}
+.chartInfo li{border-bottom:#ddd solid 1px; padding:0 20px; height:80px; line-height:80px;}
+.chartInfo li span{color:#666; font-size:24px;}
+.chartInfo li i{font-style:normal; margin-right:40px;}
+.mainDiseases{background:#fff; margin-top:20px;}
+.mainDiseases .redList{border-bottom:#ddd solid 1px;}
+.mainDiseases .cyan span,.mainDiseases .white span{color:#666;}
+.mainDiseases .cyan span{margin-right:20px;}
+.mainDiseases .cyan,.mainDiseases .white{padding:0 20px;}
+.mainDiseases .cyan{height:80px; line-height:80px; background:#eef7fb;}
+.redBtn{background:#f95058; color:#fff; border-radius:5px; width:120px; height:50px; line-height:50px; text-align:center; margin-top:15px;}
+.blueBtn{background:#146BEE; color:#fff; border-radius:5px; width:120px; height:50px; line-height:50px; text-align:center; margin-top:15px;}
+.mainDiseases .white{padding:20px; border-bottom:#ddd solid 1px;}
+.mainDiseases .white p{color:#fc8113; width:560px; line-height:55px;}
+.mainDiseases .leftSpan{width:120px;}
+.mainDiseases .white .leftSpan{height:55px; line-height:55px;}
+.mainDiseases .white p.blueText{color:#146bee;}
+
+.rankResult{margin-top:20px; margin-bottom:120px;}
+.rankResult .redList{border-bottom:#ddd solid 1px;}
+.rankResult dt,.rankResult dd{background:#fff; height:80px; line-height:80px; border-bottom:#ddd solid 1px; padding:0 20px;}
+.rankResult dt{margin-top:10px;}
+.rankResult dt span{color:#146bee;}
+.grayText{color:#666;}
+.rightBtn{background:url(../images/rightBtn.png) no-repeat right center; padding-right:40px; color:#000;}
+
+.bottom_nav{background:#fff; padding:15px 0; position:fixed; bottom:0; width:720px; border-top:#ddd solid 1px;}
+.bottom_nav a{display:inline-block; text-align:center; width:100px; height:70px; line-height:120px; color:#888;}
+.bottom_nav a.selected,.bottom_nav a:hover{color:#146bee;}
+.work_desk{background:url(../images/work_desk.png) no-repeat center top; margin-left:40px;}
+.work_desk.selected,.work_desk:hover{background:url(../images/work_desk_hover.png) no-repeat center top;}
+.site{background:url(../images/site.png) no-repeat center top; margin-left:170px;}
+.site.selected,.site:hover{background:url(../images/site_hover.png) no-repeat center top;}
+.userCenter{background:url(../images/userCenter.png) no-repeat center top; float:right; margin-right:37px;}
+.userCenter.selected,.userCenter:hover{background:url(../images/userCenter_hover.png) no-repeat center top;}
+
+.checkList{position:relative;}
+.checkList .select{width:475px; overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.checkList .dropDown{position:absolute; display:none; background:#fff; box-shadow:0 0 10px #ccc;  left:160px; top:80px; width:515px; height:426px; overflow-y:auto;}
+.checkList .dropDown dt,.checkList .dropDown dd{height:70px; line-height:70px; padding:0 20px; border-bottom:#ddd solid 1px; width:475px; overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.checkList .dropDown dd:hover{background:#eee; cursor:pointer;}
+.checkList .dropDown img{margin-top:15px;}
+.checkList .dropDown input{width:430px; height:43px; font-size:20px; border:none; outline:none;}
+
+#echarts2{width:640px; height:640px;}
+#echarts2 .icon{width:100px; height:100px; font-size:200px;}
+#echarts2 canvas{background:#fff;}
+.pie{display:none; padding:20px; position:fixed; top:50%; left:50%; margin-top:-450px; margin-left:-340px; width:640px; height:860px; background:#fff; border:#ddd solid 1px; border-radius:50px; box-shadow:0 0 10px #666; overflow:hidden; }
+.pie .btn_group{text-align:center;}
+.pie .btn_group a{display:inline-block; width:187px; height:60px; line-height:60px; text-align:center; border-radius:20px;}
+.pie .download{background:#14b8ee; color:#fff; margin-right:100px;}
+.pie .close{background:#146BEE; color:#fff;}
+
+.sort_list{width:680px; height:800px; display:none; position:fixed; top:50%; left:50%; margin-top:-400px; margin-left:-340px; border-radius:10px; overflow:hidden; background:#fff; box-shadow:0 0 10px #ccc; }
+.sort_list h2{background:#18e3d2; height:80px; line-height:80px; text-align:center; color:#fff; font-size:24px; box-shadow:0 0 10px #ccc;}
+.sort_list li{height:80px; line-height:80px; border-bottom:#ddd solid 1px;}
+.sort_list span{color:#666; font-size:24px; padding-left:20px;}
+.sort_list i{font-style: normal; margin-right:10px;}
+.sort_list a{color:#000; float:right; padding-right:60px; background:url(../images/rightBtn.png) no-repeat 80px center;}
+.line_list h2{background:#14ABFA;}
+.unit_manage_list,.line_list{display:none}
+.sort_list .close{display:block; cursor:pointer; width:40px; height:40px; margin:25px 25px 0 0; background:url(../images/closeBtn.png) no-repeat right center; float:right;}

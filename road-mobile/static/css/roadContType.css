@@ -1,0 +1,18 @@
+﻿.top_bar{height:90px; line-height:90px; padding:0 20px; text-align:center; background:#18e2d2;}
+.top_bar h1{font-size:32px; width:615px; text-align:center; font-size:32px; color:#fff; float:left;}
+.prevPage{display:block; float:left; width:20px; height:35px; background:url(../images/leftBtn.png) no-repeat left center; margin-top:25px;}
+.top_bar .home{display:block; margin-top:25px; float:right; width:39px; height:35px; background:url(../images/home_white.png) no-repeat right center;}
+.firstRow h3{background:url(../images/roadIcon.png) no-repeat left center; padding-left:40px; font-weight:normal; float:left;}
+.row,.roadList li{height:80px; line-height:80px; padding:0 20px; background:#fff; border-bottom:#ddd solid 1px;}
+.grayRow{height:60px; line-height:60px; background:#f2f4fb; padding:0 20px;}
+.grayRow span{color:#666}
+.grayRow a{display:inline-block; color:#fc8113; font-size:24px; background:url(../images/siteIcon.png) no-repeat right center; padding-right:50px;}
+.orangeText{color:#fc8113; font-size:24px; font-style:normal;}
+.dlBox dt,.dlBox dd{height:80px; line-height:80px; background:#fff; padding:0 20px; border-bottom:#ddd solid 1px;}
+.dlBox dt select{height:50px; line-height:50px; margin-top:15px; width:160px; border:none; font-size:24px; color:#18e3d2;}
+.dlBox dt .siteIcon{background:url(../images/siteIcon.png) no-repeat left center; padding-left:50px;}
+.dlBox dt a{color:#146bee; font-size:24px; background:url(../images/rightBtn.png) no-repeat right center; padding-right:50px;}
+.dlBox dd i{float:right; font-style:normal;}
+.dlBox dd span{color:#666;}
+.dlBox dl{margin-top:20px;}
+.dlBox dl.marginTopNone{margin-top:0;}

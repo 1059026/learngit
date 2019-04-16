@@ -1,0 +1,24 @@
+﻿.topBar{height:90px; line-height:90px; background:#fff;}
+.topBar h1{padding:0 20px; text-align:center; font-size:32px; color:#666;}
+.topBar h1 a{width:20px; height:35px; display:block; margin-top:27px; background:url(../images/leftjt.png) no-repeat left center;}
+.topBar h1 .home{cursor:pointer; width:40px; height:35px; display:block; margin-top:27px; background:url(../images/home_gray.png) no-repeat right center;}
+
+.hotManageArea{background:#fff; margin-top:10px;}
+.hotManageArea h2{height:80px; line-height:80px; padding:0 20px; font-size:30px; font-weight:normal; background:url(../images/city_icon.png) no-repeat 20px center; padding-left:60px; border-bottom:#ddd solid 1px;}
+.areaList{padding:30px 25px 10px 20px;}
+.areaList ul{width:720px; overflow:hidden;}
+.areaList li{float:left; margin-right:10px; margin-bottom:20px;}
+.areaList a{display:block; color:#666; width:160px; height:60px; line-height:60px; text-align:center; border:#ddd solid 1px; border-radius:10px}
+
+.list_cont{background:#fff; margin-top:10px;}
+.list_cont .list_tab{height:80px; line-height:80px; padding:0 20px; border-bottom:#ddd solid 1px;}
+.list_cont .list_tab span{color:#666; font-size:24px; float:right;}
+.list_cont .list_tab a{display:inline-block; color:#000; height:80px; line-height:80px; margin-right:45px;}
+.list_cont .list_tab a:hover,.list_cont .list_tab a.selected{ color:#f95058; border-bottom:#f95058 solid 4px;}
+.list_cont .search_box{padding:0 20px; height:70px; border-bottom:#ddd solid 1px;}
+.list_cont .search_box .input_box{height:60px; margin-top:10px; background:#eee; border:#ddd solid 1px; border-radius:10px; overflow:hidden;}
+.list_cont .search_box input{width:630px; float:left; height:60px; background:#eee; border:none; font-size:24px; text-indent:22px; outline:none;}
+.list_cont .search_box .searchBtn{float:left; display:block; width:30px; height:31px; background:url(../images/searchBtn.png) no-repeat right center; margin-top:15px;}
+.list_box li{ padding:0 20px; border-bottom:#ddd solid 1px;}
+.list_box li a{display:block; height:80px; line-height:80px;color:#666; background:url(../images/rightBtn.png) no-repeat right center;}
+

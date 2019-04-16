@@ -1,6 +1,8 @@
+//路由路径配置
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import login from '../components/login'
+import desk from '../components/desk'
 
 Vue.use(Router)
 
@@ -8,8 +10,14 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'login',
+      component: login
+    },
+    {
+      path: '/desk',
+      name: 'desk',
+      component: desk
     }
-  ]
+  ],
+    mode:'history'
 })

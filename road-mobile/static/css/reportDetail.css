@@ -1,0 +1,32 @@
+﻿.top_bar{height:90px; line-height:90px; padding:0 20px; text-align:center; background:#146bee;}
+.top_bar h1{float:left; width:615px; text-align:center; font-size:32px; color:#fff;}
+.prevPage{display:block; float:left; width:20px; height:35px; background:url(../images/leftBtn.png) no-repeat left center; margin-top:25px;}
+.top_bar .home{display:block; margin-top:25px; float:right; width:39px; height:35px; background:url(../images/home_white.png) no-repeat right center;}
+.row{height:80px; line-height:80px; background:#fff; padding:0 20px; border-bottom:#ddd solid 1px;}
+.Hrow{height:90px; line-height:90px; margin-top:20px; background:#fff; padding:0 20px; border-bottom:#ddd solid 1px}
+.row140{height:140px; line-height:140px; margin-top:20px; background:#fff; padding:0 20px; border-bottom:#ddd solid 1px}
+.Hrow h2{float:left; font-size:30px; color:#000; background:url(../images/city_icon.png) no-repeat left center; padding-left:40px; font-weight:normal;}
+.Hrow .selectBox{float:right;}
+.Hrow .selectBox select{width:210px; height:60px; font-size:24px; margin-left:15px;  border:#ddd solid 1px; line-height:60px; margin-top:15px; border-radius:5px; text-indent:10px; background:url('../images/select_down.png') no-repeat 180px center;}
+.topPart .row span{height:80px; line-height:80px; display:block; color:#666; float:left; width:200px;}
+.topPart .row select{width:480px; float:right; color:#14abfa; height:60px; line-height:60px; margin-top:15px; border:none; font-size:24px;}
+.row140 a{width:217px; height:80px; line-height:80px; text-align:center; display:inline-block; border-radius:50px; background:#fff  url(../images/btn_silid_down.png) no-repeat 187px center; color:#666; border:#ddd solid 1px;}
+.row140 a.selected{background:#f95058 url(../images/btn_silid_up.png) no-repeat 187px center; color:#fff;}
+.tabBox{overflow:hidden;}
+.tabBox .tab{display:none; padding:30px 20px 0px 20px; background:#fff; border-bottom:#ddd solid 1px; width:760px;}
+.tabBox .tab .tab1 a{display:inline-block; float:left; font-style:normal; cursor:pointer; width:100px; height:60px; text-align:center; line-height:60px; border:#ddd solid 1px; color:#666; border-radius:5px; margin-right:15px; margin-bottom:30px;}
+.tabBox .tab .tab2 a{display:inline-block; float:left; font-style:normal; cursor:pointer; width:150px; height:60px; text-align:center; line-height:60px; border:#ddd solid 1px; color:#666; border-radius:5px; margin-right:27px; margin-bottom:30px;}
+.tabBox .tab a.selected,.tab i.selected{background:#f95058; color:#fff;}
+.tab .btnGroup{padding:30px 0 30px 150px; border-top:#ddd solid 1px; margin-left:-20px;}
+.tab .btnGroup button{width:150px; height:60px; background:#146bee; color:#fff; border:none; border-radius:5px; font-size:30px; cursor:pointer; margin-right:100px;}
+.tit{background:#fcf6ef; height:85px; line-height:85px; border-bottom:#ddd solid 1px; margin-top:20px; padding:0 20px;}
+.tit h3{font-weight:normal; float:left;}
+.orangeText{color:#f95058; float:left;}
+.titleB b{display:block; width:120px; float:left;}
+.td span{display:block; width:120px; float:left;}
+.siteIcon{display:block; width:80px; height:80px; float:left; background:url(../images/daohang.png) no-repeat left center;}
+.siteIcon i{display:block; float:right; width:17px; height:30px; margin-top:25px;  background:url(../images/rightBtn.png) right center;}
+.rowList li{margin-top:10px;}
+.sub_main{padding-bottom:80px;}
+.heightAuto{height:auto;}
+.orangeText span{display:inline-block; width:170px; text-align:center;}
