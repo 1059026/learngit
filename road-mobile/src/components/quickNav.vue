@@ -5,7 +5,7 @@
     <div class="topBar">
       <h1>
       <a href="javascript:;" class="leftBtn fl"></a>
-        地图快速导航
+        地图快速导航    
       <span class="home fr"></span>
       <div class="clear"></div>
       </h1>
@@ -67,9 +67,10 @@
         </div>
       </div>
       <div class="list_box">
+
         <ul>
           <li>
-            <a href="javascript:;">抚州市新路网</a>
+            抚州市新路网
           </li>
           <li>
             <a href="javascript:;">抚州市辖区</a>
@@ -157,7 +158,7 @@ export default {
   name: 'quickNav',
   data () {
     return {
-
+      city:['南昌县','南昌县','南昌县','南昌县','南昌县','南昌县','南昌县','南昌县','南昌县','南昌县']
     }
   },
   mounted(){
