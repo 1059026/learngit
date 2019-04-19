@@ -21,6 +21,7 @@
 .chooseCheckList .unit{height:90px; line-height:90px; border-bottom:#ddd solid 1px;}
 .chooseCheckList .unit img{margin-top:30px; float:left;}
 .chooseCheckList .unit select{width:620px; padding-left:25px; height:65px; line-height:65px; border:none; font-size:30px; color:#000; float:left; margin-top:15px; font-weight:bold; -webkit-appearance: none;/*兼容苹果手机*/}
+.chooseCheckList .unit select option{font-size:18px;}
 .chooseCheckList .checkList{height:90px; line-height:90px; padding-right:20px;}
 .chooseCheckList .checkList span{font-size:24px; color:#666; float:left;}
 .checkList .select{width:483px; cursor:pointer; background:url('../images/select_down.png') no-repeat right center; padding-left:25px; height:50px; line-height:50px; font-size:24px; color:#14abfa; float:left; margin-top:20px;}

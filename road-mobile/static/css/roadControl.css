@@ -36,7 +36,7 @@ a.checkRow .rightBtn{background:url(../images/rightBtn.png) no-repeat right cent
 
 .addBox{position:fixed; display:none; z-index:4; width:720px; left:50%; background:#fff; margin-left:-360px; top:180px; border:#ddd solid 1px;}
 .addBox h3{color:#666; font-size:30px; width:180px; float:left;}
-.addBox .inputBox{width:498px; height:60px; margin-top:10px; border:#ddd solid 1px; border-radius:5px; float:left; overflow:hidden;}
+.addBox .inputBox{width:498px; height:60px; line-height:60px; margin-top:10px; border:#ddd solid 1px; border-radius:5px; float:left; overflow:hidden;}
 .addBox .inputBox input{height:60px; line-height:60px; width:418px; border:none; font-size:24px; color:#666; text-indent:10px;}
 .inputBox .searchBtn{display:block; float:right; width:60px; margin-top:15px; height:31px; background:url(../images/searchBtn.png) no-repeat left center;}
 .bgYellow{background:#fcf6ef; color:#000; font-size:24px; height:80px; line-height:80px;}

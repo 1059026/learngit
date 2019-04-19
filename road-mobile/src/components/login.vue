@@ -59,7 +59,7 @@ export default {
     },
     showBox(){
       this.isShow=true;
-      this.$router.push({path:'/desk'});
+      this.$router.push({path:'/home'});
     }
   },
 }

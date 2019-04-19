@@ -1,7 +1,7 @@
 <template>
   <div class="result">
     <div class="checkResult">
-        <span class="redList">检测结果</span>
+        <span class="redList">检测结果</span>  <!--选中的管养单位id:{{$store.state.unitName}},选中的检测单id:{{$store.state.checkList}}-->
         <div class="total">
           <select class="fl">
             <option>PQI</option>
@@ -96,48 +96,61 @@ export default {
       //检测结果图表
       let myChart = this.$echarts.init(document.getElementById('echarts'))
       let option = {
-            legend: {
-                x:'center',
-                y:'bottom',
-                selectedMode:'multiple',
-                itemGap:80,
-                itemWidth:40,
-                itemHeight:20,
-                selected:{
-                  "PQI":true,
-                  "PCI":false,
-                  "RQI":false,
-                  "RDI":false
-                }
-            },
-            tooltip: {
-                trigger: 'axis',
-                showContent: false
-            },
-            dataset: {
-                source: [
-                    ['时间', '20170917', '20170918', '20170919', '20170920', '20170921'],
-                    ['PQI',24.2,35,46.3,51.7,23.3],
-                    ['PCI', 41.1, 30.4, 65.1, 53.3, 83.8, 98.7],
-                    ['RQI', 86.5, 92.1, 85.7, 83.1, 73.4, 55.1],
-                    ['RDI', 24.1, 67.2, 79.5, 86.4, 65.2, 82.5]
-                ]
-            },
-            xAxis: {type: 'category'},
-            yAxis: {gridIndex: 0},
-            grid: {top: '5%'},
-            series: [
-                {type: 'line', smooth: true, seriesLayoutBy: 'row'},
-                {type: 'line', smooth: true, seriesLayoutBy: 'row'},
-                {type: 'line', smooth: true, seriesLayoutBy: 'row'},
-                {type: 'line', smooth: true, seriesLayoutBy: 'row'},
-            ]
-        };
-        myChart.setOption(option);
+          legend: {
+              x:'center',
+              y:'bottom',
+              selectedMode:'multiple',
+              itemGap:80,
+              itemWidth:40,
+              itemHeight:20,
+              selected:{
+                "PQI":true,
+                "PCI":false,
+                "RQI":false,
+                "RDI":false
+              }
+          },
+          tooltip: {
+              trigger: 'axis',
+              showContent: false
+          },
+          dataset: {
+              source: [
+                  ['时间', '20170917', '20170918', '20170919', '20170920', '20170921'],
+                  ['PQI',24.2,35,46.3,51.7,23.3],
+                  ['PCI', 41.1, 30.4, 65.1, 53.3, 83.8, 98.7],
+                  ['RQI', 86.5, 92.1, 85.7, 83.1, 73.4, 55.1],
+                  ['RDI', 24.1, 67.2, 79.5, 86.4, 65.2, 82.5]
+              ]
+          },
+          xAxis: {type: 'category'},
+          yAxis: {gridIndex: 0},
+          grid: {top: '5%'},
+          series: [
+              {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+              {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+              {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+              {type: 'line', smooth: true, seriesLayoutBy: 'row'},
+          ]
+      };
+      myChart.setOption(option);
     }
   }
 }
 </script>
 <style scoped>
-
+.redList{display:block; background:#fff url(../../static/images/red_list_style.png) no-repeat 20px center; padding-left:40px; font-size:30px; height:90px; line-height:90px;}
+.checkResult{background:#fff; margin-top:20px;}
+.checkResult .total{background:#eef7fb; height:60px; line-height:60px; border-top:#ddd solid 1px; padding:10px 20px;}
+.checkResult select{width:160px; height:60px; line-height:60px; border:none; font-size:24px;}
+.checkRow{height:80px; line-height:80px; padding:0 20px;}
+.checkRow span{color:#666; font-size:20px;}
+.checkRow i{font-style: normal; margin-right:20px;}
+#echarts{height:340px; background:#fff;}
+.chartInfo{background:#fff; margin-top:10px;}
+.chartInfo li{border-bottom:#ddd solid 1px; padding:0 20px; height:80px; line-height:80px;}
+.chartInfo li span{color:#666; font-size:24px;}
+.chartInfo li i{font-style:normal; margin-right:40px;}
+.grayText{color:#666;}
+.rightBtn{background:url(../../static/images/rightBtn.png) no-repeat right center; padding-right:40px; color:#000;}
 </style>

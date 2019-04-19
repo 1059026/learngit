@@ -1,5 +1,5 @@
 <template>
-  <div class="mainDiseases">
+  <div class="mainDiseases">  <!--选中的管养单位id:{{$store.state.unitName}},选中的检测单id:{{$store.state.checkList}}-->
     <span class="redList">主要病害</span>
     <div class="cyan">
       <span class="leftSpan">沥青路面</span>
@@ -130,5 +130,26 @@ export default {
 }
 </script>
 <style scoped>
+.redList{display:block; background:#fff url(../../static/images/red_list_style.png) no-repeat 20px center; padding-left:40px; font-size:30px; height:90px; line-height:90px;}
+.mainDiseases{background:#fff; margin-top:20px;}
+.mainDiseases .redList{border-bottom:#ddd solid 1px;}
+.mainDiseases .cyan span,.mainDiseases .white span{color:#666;}
+.mainDiseases .cyan span{margin-right:20px;}
+.mainDiseases .cyan,.mainDiseases .white{padding:0 20px;}
+.mainDiseases .cyan{height:80px; line-height:80px; background:#eef7fb;}
+.redBtn{background:#f95058; color:#fff; border-radius:5px; width:120px; height:50px; line-height:50px; text-align:center; margin-top:15px;}
+.mainDiseases .white{padding:20px; border-bottom:#ddd solid 1px;}
+.mainDiseases .white p{color:#fc8113; width:560px; line-height:55px;}
+.mainDiseases .leftSpan{width:120px;}
+.mainDiseases .white .leftSpan{height:55px; line-height:55px;}
+.mainDiseases .white p.blueText{color:#146bee;}
 
+#echarts2{width:640px; height:640px;}
+#echarts2 .icon{width:100px; height:100px; font-size:200px;}
+#echarts2 canvas{background:#fff;}
+.pie{display:none; padding:20px; position:fixed; top:50%; left:50%; margin-top:-450px; margin-left:-340px; width:640px; height:860px; background:#fff; border:#ddd solid 1px; border-radius:50px; box-shadow:0 0 10px #666; overflow:hidden; }
+.pie .btn_group{text-align:center;}
+.pie .btn_group a{display:inline-block; width:187px; height:60px; line-height:60px; text-align:center; border-radius:20px;}
+.pie .download{background:#14b8ee; color:#fff; margin-right:100px;}
+.pie .close{background:#146BEE; color:#fff;}
 </style>

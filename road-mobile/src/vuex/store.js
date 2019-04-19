@@ -1,0 +1,14 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+const store = new Vuex.Store({
+  // 定义状态
+  state: {
+    unitName:1,
+    checkList:1
+  }
+})
+
+export default store

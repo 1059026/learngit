@@ -21,7 +21,7 @@ select{font-size:24px; color:#666;}
 .btn_group{float:right;}
 .btn_group a{display:inline-block; width:150px; height:60px; line-height:60px; text-align:center; color:#fff; background:#FD8012; border-radius:5px;}
 .btn_group a:first-child{margin-right:50px;}
-
+.row80{background:#fff; padding:0 20px; overflow:hidden;}
 .resultShow{margin-top:20px;}
 .resultBox{margin-top:20px;}
 .marginTopNone{margin-top:0px;}

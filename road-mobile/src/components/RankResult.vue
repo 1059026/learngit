@@ -157,4 +157,20 @@ export default {
 </script>
 
 <style scoped>
+.redList{display:block; background:#fff url(../../static/images/red_list_style.png) no-repeat 20px center; padding-left:40px; font-size:30px; height:90px; line-height:90px;}
+.rankResult{margin-top:20px; margin-bottom:120px;}
+.rankResult .redList{border-bottom:#ddd solid 1px;}
+.rankResult dt,.rankResult dd{background:#fff; height:80px; line-height:80px; border-bottom:#ddd solid 1px; padding:0 20px;}
+.rankResult dt{margin-top:10px;}
+.rankResult dt span{color:#146bee;}
+.sort_list{width:680px; height:800px; display:none; position:fixed; top:50%; left:50%; margin-top:-400px; margin-left:-340px; border-radius:10px; overflow:hidden; background:#fff; box-shadow:0 0 10px #ccc; }
+.sort_list h2{background:#18e3d2; height:80px; line-height:80px; text-align:center; color:#fff; font-size:24px; box-shadow:0 0 10px #ccc;}
+.sort_list li{height:80px; line-height:80px; border-bottom:#ddd solid 1px;}
+.sort_list span{color:#666; font-size:24px; padding-left:20px;}
+.sort_list i{font-style: normal; margin-right:10px;}
+.sort_list a{color:#000; float:right; padding-right:60px; background:url(../../static/images/rightBtn.png) no-repeat 80px center;}
+.line_list h2{background:#14ABFA;}
+.unit_manage_list,.line_list{display:none}
+.sort_list .close{display:block; cursor:pointer; width:40px; height:40px; margin:25px 25px 0 0; background:url(../../static/images/closeBtn.png) no-repeat right center; float:right;}
+.blueBtn{background:#146BEE; color:#fff; border-radius:5px; width:120px; height:50px; line-height:50px; text-align:center; margin-top:15px;}
 </style>

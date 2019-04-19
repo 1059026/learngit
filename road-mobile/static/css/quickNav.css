@@ -19,6 +19,8 @@
 .list_cont .search_box .input_box{height:60px; margin-top:10px; background:#eee; border:#ddd solid 1px; border-radius:10px; overflow:hidden;}
 .list_cont .search_box input{width:630px; float:left; height:60px; background:#eee; border:none; font-size:24px; text-indent:22px; outline:none;}
 .list_cont .search_box .searchBtn{float:left; display:block; width:30px; height:31px; background:url(../images/searchBtn.png) no-repeat right center; margin-top:15px;}
-.list_box li{ padding:0 20px; border-bottom:#ddd solid 1px;}
-.list_box li a{display:block; height:80px; line-height:80px;color:#666; background:url(../images/rightBtn.png) no-repeat right center;}
+.list_box a{display:block; height:80px; line-height:80px;color:#666; background:url(../images/rightBtn.png) no-repeat right center;}
+.ivu-card{height:80px; line-height:80px; font-size:24px;}
+.ivu-card-body{padding:0 20px;}
+.ivu-card-body a{display:block;cursor:pointer;}
 
