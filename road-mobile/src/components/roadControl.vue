@@ -332,9 +332,11 @@ export default {
           this.$router.go(-1);
         },
     routerDetail(event){
-      let id=event.target.id;
       this.$router.push({
-        path:"/detailsView/"+id+""
+        name:"detailsView",
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }
       })
 
     },
@@ -395,9 +397,9 @@ export default {
 
 .filter_row{overflow:hidden; padding:0 20px; margin-top:20px;}
 .filter_row .addInput{height:60px; width:569px; border:#ddd solid 1px; border-radius:5px; text-indent:10px; font-size:24px; color:#666; float:left;}
-.filter_row .zhuanghao{width:150px; height:60px; margin-right:9px; border:#ddd solid 1px; border-radius:5px; text-indent:10px; font-size:24px; color:#666; float:left;}
+.filter_row .zhuanghao{width:148px; height:60px; margin-right:9px; border:#ddd solid 1px; border-radius:5px; text-indent:10px; font-size:24px; color:#666; float:left;}
 .filter_row select{width:120px; height:60px; text-indent:10px; border:#ddd solid 1px; background:#fff url('../../static/images/select_down.png') no-repeat 100px center; margin-right:8px; font-size:24px; color:#666; float:left;}
-.filter_row .addBtn{display:block; float:left; width:100px; height:60px; margin-left:7px; border:#ddd solid 1px; border-radius:5px; overflow:hidden; background:#fff url(../../static/images/jia.png) no-repeat center center;}
+.filter_row .addBtn{display:block; float:left; width:100px; height:60px; margin-left:7px; border-radius:5px; overflow:hidden; background:#fff url(../../static/images/jia.png) no-repeat right center;}
 .selectGroup{width:569px; float:left;}
 .filter_row .clearMargin{margin-right:0;}
 

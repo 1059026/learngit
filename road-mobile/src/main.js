@@ -9,7 +9,8 @@ import echarts from 'echarts'
 import iView from 'iview'
 import Vuex from 'vuex'
 import store from './vuex/store'
-import publicJs from "../static/js/public.js" 
+import publicJs from "../static/js/public.js"
+import 'iview/dist/styles/iview.css';
 
 Vue.prototype.$echarts = echarts 
 Vue.use(iView)

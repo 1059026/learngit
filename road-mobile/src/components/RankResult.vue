@@ -44,23 +44,23 @@
           </dd>
         </dl>
       </div>
-      <!--管养单位PQI-排名-->
+      <!--管养单位PQI/PCI/RQI/RDI-排名-->
         <div class="sort_list unit_manage_list alertBox">
             <h2>管养单位{PQI}排名<span class="close"></span></h2>
             <ul>
               <li v-for="(i,index) in unitDataSort">
                 <span><i>{{index+1}}</i>{{i.unitName}}</span>
-                <a href="javascript:;">{{i.value}}</a>
+                <a href="javascript:;" @click="toMapPage">{{i.value}}</a>
               </li>
             </ul>
         </div>
-        <!--路线PQI-排名-->
+        <!--路线PQI/PCI/RQI/RDI-排名-->
         <div class="sort_list line_list alertBox">
             <h2>路线PQI排名<span class="close"></span></h2>
             <ul>
               <li v-for="(i,index) in roadDataSort">
                 <span><i>{{index+1}}</i><i>{{i.roadName}}</i><i>{{i.start}}</i><i>{{i.end}}</i></span>
-                <a href="javascript:;">{{i.value}}</a>
+                <a href="javascript:;" @click="toMapPage">{{i.value}}</a>
               </li>
             </ul>
         </div>
@@ -113,7 +113,6 @@ export default {
       d70:0,
       d60:0,
       x60:0
-
     }
   },
   mounted(){
@@ -140,6 +139,13 @@ export default {
     }
   },
   methods:{
+    toMapPage(){
+      this.$router.push({
+        name: 'theMap',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
+    },
     //json排序函数
     compare(property) {
             return function(a, b) {

@@ -1,11 +1,12 @@
 /*  Css-reset  */
+*{box-sizing: inherit!important}
 body,p,dl,dd{margin:0;font-size:24px;font-family:"微软雅黑";}
 h1,h2,h3,h4,h5,h6,input,figure,form,select{margin:0; padding:0;}
 ol,ul{list-style:none;padding:0;margin:0;}
 a{text-decoration:none;}
 img{border:none;vertical-align:top;}
 textarea,input{margin:0;padding:0;resize:none;overflow:auto;outline:none;}
-body{height:100%; background:#f2f4fb;}
+body{height:100%; background:#f3f3fb;}
 .fl{float:left;}
 .fr{float:right;}
 .clear{clear:both;}
@@ -18,3 +19,4 @@ select{ outline:none; -webkit-appearance: none;/*兼容苹果手机*/ background
 .red{color:red;}
 .green{color:green;}
 .dropload-load,.dropload-refresh{font-size:24px;}
+.sub_main{background:#f3f3fb}

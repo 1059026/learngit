@@ -15,6 +15,19 @@ import checkReport from '../components/checkReport'
 import theMap from '../components/theMap'
 import history from '../components/history'
 import detailsView from '../components/detailsView'
+import ccUnit from '../components/ccUnit'
+import ccRoad from '../components/ccRoad'
+import roadContType from '../components/roadContType'
+import roadDetailList from '../components/roadDetailList'
+import filterUnit from '../components/filterUnit'
+import curingDetail from '../components/curingDetail'
+import decisionsLine from '../components/decisionsLine'
+import lineDetail from '../components/lineDetail'
+import filterReport from '../components/filterReport'
+import reportDetail from '../components/reportDetail'
+import reportMX from '../components/reportMX'
+import checkReportFilter from '../components/checkReportFilter'
+import reportXQ from '../components/reportXQ'
 
 Vue.use(Router)
 
@@ -37,7 +50,7 @@ export default new Router({
 		      component: desk
 		    },
 		    {
-		      path: '/theMap',
+		      path: '/theMap/',
 		      name: 'theMap',
 		      component: theMap
 		    }
@@ -90,9 +103,74 @@ export default new Router({
       component: checkReport
     },
     {
-     path: '/detailsView/:id',
+     path: '/detailsView',
      name: 'detailsView',
      component: detailsView
+    },
+    {
+      path: '/ccUnit',
+      name: 'ccUnit',
+      component: ccUnit
+    },
+    {
+      path: '/ccRoad',
+      name: 'ccRoad',
+      component: ccRoad
+    },
+    {
+      path: '/roadContType',
+      name: 'roadContType',
+      component: roadContType
+    },
+    {
+      path: '/roadDetailList',
+      name: 'roadDetailList',
+      component: roadDetailList
+    },
+    {
+      path: '/filterUnit',
+      name: 'filterUnit',
+      component: filterUnit
+    },
+    {
+      path: '/curingDetail',
+      name: 'curingDetail',
+      component: curingDetail
+    },
+    {
+      path: '/decisionsLine',
+      name: 'decisionsLine',
+      component: decisionsLine
+    },
+    {
+      path: '/lineDetail',
+      name: 'lineDetail',
+      component: lineDetail
+    },
+    {
+      path: '/filterReport',
+      name: 'filterReport',
+      component: filterReport
+    },
+    {
+      path: '/reportDetail',
+      name: 'reportDetail',
+      component: reportDetail
+    },
+    {
+      path: '/reportMX',
+      name: 'reportMX',
+      component: reportMX
+    },
+    {
+      path: '/checkReportFilter',
+      name: 'checkReportFilter',
+      component: checkReportFilter
+    },
+    {
+      path: '/reportXQ',
+      name: 'reportXQ',
+      component: reportXQ
     }
     
   ],

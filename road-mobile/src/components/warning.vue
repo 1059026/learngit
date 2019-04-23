@@ -28,7 +28,7 @@
         <span>次差路线(37)</span><span>PQI:68.36</span><span>次差:2350.36Km</span><span>占比:17.36</span>
       </dt>
       <dd>
-        <span>赣州市公路管理局泰安检测中心</span><span>68.36</span><span>28500.27Km</span><span><a href="javascript:;">23.7%</a></span>
+        <span>赣州市公路管理局泰安检测中心</span><span>68.36</span><span>28500.27Km</span><span><a @click="toCcUnit" href="javascript:;">23.7%</a></span>
       </dd>
       <dd>
         <span>赣州市公路管理局泰安检测中心</span><span>68.36</span><span>28500.27Km</span><span><a href="javascript:;">23.7%</a></span>
@@ -72,103 +72,37 @@
         <span>次差管养单位(53)</span><span>PQI:68.36</span><span>次差:2350.36Km</span><span>占比:17.36</span>
       </dt>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road" @click="toCcRoad">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;" @click="toTheMap">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
       <dd>
-        <span>
-          <select>
-            <option>G315</option>
-            <option>G316</option>
-            <option>G105</option>
-          </select>
-        </span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
+        <span class="road">G315</span><span>68.36</span><span>28500.27Km</span><span>23.7%</span><span><a href="javascript:;">地图</a></span>
       </dd>
     </dl>
   </div>
@@ -198,7 +132,28 @@ export default {
   methods:{
     back(){
           this.$router.go(-1);
-        }
+        },
+    toCcUnit(){
+      this.$router.push({
+        name: 'ccUnit',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
+    },
+    toCcRoad(){
+      this.$router.push({
+        name: 'ccRoad',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
+    },
+    toTheMap(){
+      this.$router.push({
+        name: 'theMap',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
+    }
   }
 }
 </script>
@@ -238,7 +193,7 @@ export default {
 .roadList dt{background:#fcf6ef; border-bottom:#ddd solid 1px;}
 .roadList dd{background:#fff;}
 .roadList dt,.roadList dd{padding:0 20px; height:80px; line-height:80px; border-bottom:#ddd solid 1px;}
-.roadList select{width:150px; font-size:24px; color:#666; height:80px;border:none;}
+.roadList .road{cursor:pointer; display:block; float:left; background:url("../../static/images/select_down.png") no-repeat right center;width:150px; font-size:24px; color:#666; height:80px;border:none;}
 .roadList span{display:inline-block; font-size:22px; color:#666; text-align:center;}
 .roadList dd span:nth-child(1){width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .roadList dd span:nth-child(2){width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}

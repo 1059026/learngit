@@ -11,94 +11,96 @@
           <a href="javascript:;" class="slideUp">收缩</a>
           <h2>筛选条件</h2>
         </div>
-        <div class="row">
-          <span class="leftText">检测单</span>
-          <a href="javascript:;" class="fr rightBtn">请选择检测单</a>
-        </div>
-        <div class="row">
-          <span class="leftText">管养单位</span>
-          <a href="javascript:;" class="fr rightBtn">请选择管养单位</a>
-        </div>
-        <div class="row">
-          <span class="leftText">路线</span>
-          <a href="javascript:;" class="fr rightBtn">请选择路线</a>
-        </div>
-        <div class="row">
-          <span class="leftText">路段</span>
-          <a href="javascript:;" class="fr rightBtn">请选择路段</a>
-        </div>
-        <div class="row sm_select">
-          <span>PQI</span>
-          <select>
-            <option>选择</option>
-            <option>优</option>
-            <option>良</option>
-            <option>次</option>
-          </select>
-          <span>RQI</span>
-          <select>
-            <option>选择</option>
-            <option>优</option>
-            <option>良</option>
-            <option>次</option>
-          </select>
-          <span>RDI</span>
-          <select>
-            <option>选择</option>
-            <option>优</option>
-            <option>良</option>
-            <option>次</option>
-          </select>
-          <span>PCI</span>
-          <select>
-            <option>选择</option>
-            <option>优</option>
-            <option>良</option>
-            <option>次</option>
-          </select>
-        </div>
-        <div class="row">
-          <span class="leftText">养护决策</span>
-          <a href="javascript:;" class="fr rightBtn">请选择养护决策</a>
-        </div>
-        <div class="row">
-          <span class="leftText">水泥病害</span>
-          <a href="javascript:;" class="fr rightBtn">请选择水泥主要病害</a>
-        </div>
-        <div class="row">
-          <span class="leftText">沥青病害</span>
-          <a href="javascript:;" class="fr rightBtn">请选择沥青主要病害</a>
-        </div>
-        <div class="row lg_select">
-          <span>路面类型</span>
-          <select>
-            <option>全部</option>
-            <option>沥青路面</option>
-            <option>水泥路面</option>
-          </select>
-          <span>路面宽度</span>
-          <select>
-            <option>请选择</option>
-            <option>XXX</option>
-          </select>
-        </div>
-        <div class="row lg_select">
-          <span>技术等级</span>
-          <select>
-            <option>请选择</option>
-            <option>二级公路</option>
-          </select>
-          <span>检测状态</span>
-          <select>
-            <option>请选择</option>
-            <option>通车路段</option>
-          </select>
-        </div>
-        <div class="row">
-          <div class="btn_group">
-            <a href="javascript:;">清空选择</a>
-            <a href="javascript:;">立即筛查</a>
-          </div>
+        <div class="filterItem">
+            <div class="row">
+              <span class="leftText">检测单</span>
+              <a href="javascript:;" class="fr rightBtn"><input type="text" class="selectedText" placeholder="请选择检测单"></a>
+            </div>
+            <div class="row">
+              <span class="leftText">管养单位</span>
+              <a href="javascript:;" class="fr rightBtn"><input type="text" class="selectedText" placeholder="请选择管养单位"></a>
+            </div>
+            <div class="row">
+              <span class="leftText">路线</span>
+              <a href="javascript:;" class="fr rightBtn"><input type="text" class="selectedText" placeholder="请选择路线"></a>
+            </div>
+            <div class="row">
+              <span class="leftText">路段</span>
+              <a href="javascript:;" class="fr rightBtn"><input type="text" class="selectedText" placeholder="请选择路段"></a>
+            </div>
+            <div class="row sm_select">
+              <span>PQI</span>
+              <select>
+                <option>选择</option>
+                <option>优</option>
+                <option>良</option>
+                <option>次</option>
+              </select>
+              <span>RQI</span>
+              <select>
+                <option>选择</option>
+                <option>优</option>
+                <option>良</option>
+                <option>次</option>
+              </select>
+              <span>RDI</span>
+              <select>
+                <option>选择</option>
+                <option>优</option>
+                <option>良</option>
+                <option>次</option>
+              </select>
+              <span>PCI</span>
+              <select>
+                <option>选择</option>
+                <option>优</option>
+                <option>良</option>
+                <option>次</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="leftText">养护决策</span>
+              <a href="javascript:;" class="fr rightBtn"><input type="text" class="selectedText" placeholder="请选择养护决策"></a>
+            </div>
+            <div class="row">
+              <span class="leftText">水泥病害</span>
+              <a href="javascript:;" class="fr rightBtn"><input type="text" class="selectedText" placeholder="请选择水泥主要病害"></a>
+            </div>
+            <div class="row">
+              <span class="leftText">沥青病害</span>
+              <a href="javascript:;" class="fr rightBtn"><input type="text" class="selectedText" placeholder="请选择沥青主要病害"></a>
+            </div>
+            <div class="row lg_select">
+              <span>路面类型</span>
+              <select>
+                <option>全部</option>
+                <option>沥青路面</option>
+                <option>水泥路面</option>
+              </select>
+              <span>路面宽度</span>
+              <select>
+                <option>请选择</option>
+                <option>XXX</option>
+              </select>
+            </div>
+            <div class="row lg_select">
+              <span>技术等级</span>
+              <select>
+                <option>请选择</option>
+                <option>二级公路</option>
+              </select>
+              <span>检测状态</span>
+              <select>
+                <option>请选择</option>
+                <option>通车路段</option>
+              </select>
+            </div>
+            <div class="row">
+              <div class="btn_group">
+                <a href="javascript:;">清空选择</a>
+                <a href="javascript:;">立即筛查</a>
+              </div>
+            </div>
         </div>
         <!--结果展示=管养单位-->
         <div class="resultShow">
@@ -107,7 +109,7 @@
             </div>
           <div class="resultBox marginTopNone">
             <div class="row">
-              <a class="map" href="javascript:;">
+              <a class="map" href="javascript:;" @click="toTheMap">
                 <span class="siteIcon">地图</span>
               </a>
               <select class="noBoderSelect">
@@ -565,9 +567,29 @@ export default {
   methods:{
     back(){
       this.$router.go(-1);
+    },
+    toTheMap(){
+      this.$router.push({
+        name: 'theMap',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
     }
   },
   mounted(){
+    //收缩筛选条件
+    $('.slideUp').click(function(){
+      if($(this).html()=='收缩'){
+        $(this).html('展开');
+        $(this).removeClass('slideUp').addClass('slideDown');
+        $('.filterItem').slideUp();
+      }else{
+        $(this).html('收缩');
+        $(this).removeClass('slideDown').addClass('slideUp');
+        $('.filterItem').slideDown();
+      }
+
+    })
        //弹窗
    //选择检测单
     $('.rightBtn').eq(0).click(function(){
@@ -651,7 +673,7 @@ export default {
 .leftText{display:block; float:left; width:120px; padding-right:20px; height:40px; line-height:40px; margin-top:20px; border-right:#ddd solid 1px;}
 .rightBtn{display:inline-block; font-size:24px; color:#ccc; float:right; padding-right:40px; height:40px; line-height:40px; margin-top:20px; background:url(../../static/images/rightBtn.png) no-repeat right center;}
 select{font-size:24px; color:#666;}
-.sm_select select{width:90px; height:50px; text-align:center; margin-right:25px; border-radius:5px; background:#eee url('../../static/images/select_down.png') no-repeat 70px center; border:#ddd solid 1px;}
+.sm_select select{width:88px; height:50px; text-align:center; margin-right:25px; border-radius:5px; background:#eee url('../../static/images/select_down.png') no-repeat 70px center; border:#ddd solid 1px;}
 .lg_select select{width:180px; height:50px; text-align:center; margin-right:50px; border-radius:5px; background:#eee url('../../static/images/select_down.png') no-repeat 150px center; border:#ddd solid 1px;}
 .btn_group{float:right;}
 .btn_group a{display:inline-block; width:150px; height:60px; line-height:60px; text-align:center; color:#fff; background:#FD8012; border-radius:5px;}
@@ -660,7 +682,7 @@ select{font-size:24px; color:#666;}
 .resultBox{margin-top:20px;}
 .marginTopNone{margin-top:0px;}
 .resultShow_tit{color:#f95058; font-size:30px; background:#fcf6ef; height:90px; line-height:90px; padding:0 20px; border-bottom:#ddd solid 1px;}
-.resultShow .map{float:right; display:block; height:40px; margin-top:20px; background:url('../../static/images/rightBtn.png') no-repeat right center; padding-right:40px;}
+.resultShow .map{float:right; display:block; height:40px; line-height:40px; margin-top:20px; background:url('../../static/images/rightBtn.png') no-repeat right center; padding-right:40px;}
 .siteIcon{background:url('../../static/images/siteIcon.png') no-repeat left center; width:55px; height:40px; line-height:40px; color:#146bee; display:inline-block; padding-left:40px; }
 .noBoderSelect{float:left; width:300px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; height:40px; line-height:40px; margin-top:20px; border:none;}
 .resultShow span,.resultShow i{font-size:24px; color:#666;}
@@ -703,4 +725,9 @@ select{font-size:24px; color:#666;}
 .roadLineResult .resultBox select{width:90px;}
 .firstRow .siteIcon{width:30px; padding-left:0px}
 .firstRow span{margin-right:20px;}
+.selectedText{text-align:right; border:none;}
+.selectedText::-webkit-input-placeholder{color:#bbb;}
+.selectedText::-moz-placeholder{   /* Mozilla Firefox 19+ */color:#bbb;}
+.selectedText:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */color:#bbb;}
+.selectedText:-ms-input-placeholder{  /* Internet Explorer 10-11 */color:#bbb;}
 </style>

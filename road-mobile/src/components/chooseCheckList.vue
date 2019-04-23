@@ -74,7 +74,7 @@ export default {
                     })
                   })
             }
-            return this.filterResult;
+            return this.chekList;
         }
   }
 }
@@ -90,7 +90,7 @@ export default {
 .checkList .select{width:483px; cursor:pointer; background:url('../../static/images/select_down.png') no-repeat right center; padding-left:25px; height:50px; line-height:50px; font-size:24px; color:#14abfa; float:left; margin-top:20px;}
 .checkList{position:relative;}
 .checkList .select{width:475px; overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
-.checkList .dropDown{position:absolute; display:none; background:#fff; box-shadow:0 0 10px #ccc;  left:160px; top:80px; width:515px; height:426px; overflow-y:auto;}
+.checkList .dropDown{position:absolute; display:none; background:#fff; box-shadow:0 0 10px #ccc;  left:160px; top:80px; width:515px; overflow-y:auto;}
 .checkList .dropDown dt,.checkList .dropDown dd{height:70px; line-height:70px; padding:0 20px; border-bottom:#ddd solid 1px; width:475px; overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
 .checkList .dropDown dd:hover{background:#eee; cursor:pointer;}
 .checkList .dropDown img{margin-top:15px;}

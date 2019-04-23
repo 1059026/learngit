@@ -20,7 +20,7 @@
       </div>
       <ul class="roadList">
         <li>
-          <a href="javascript:;">
+          <a href="javascript:;" @click="toRoadContType">
             <span>G105</span>
             <i>北京-澳门</i>
           </a>
@@ -106,6 +106,13 @@ export default {
   methods:{
     back(){
       this.$router.go(-1);
+    },
+    toRoadContType(){
+      this.$router.push({
+        name: 'roadContType',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
     }
   },
   mounted(){

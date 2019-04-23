@@ -16,7 +16,7 @@
 	          <i>01</i>
 	          <b>赣州市公路管理局于都分局赣州市公路管理局于都分局赣州市公路管理局于都分局赣州市公路管理局于都分局</b>
 	          <div class="btn_group">
-	            <a href="javascript:;" class="greenBg">查看</a>
+	            <a href="javascript:;" class="greenBg" @click="returnSearch">查看</a>
 	            <a href="javascript:;" class="redBg">删除</a>
 	          </div>
 	        </div>
@@ -136,7 +136,14 @@ export default {
   methods:{
   	back(){
   		this.$router.go(-1);
-  	}
+  	},
+    returnSearch(){
+      this.$router.push({
+        name: 'roadControl',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
+    }
   }
 }
 </script>

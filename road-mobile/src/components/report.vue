@@ -20,7 +20,7 @@
         <dt>
           <span>日期</span><span>检测单名称</span>
         </dt>
-        <dd><span>2018-10-28</span><span>吉安公路分局10月检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单</span></dd>
+        <dd><span>2018-10-28</span><span @click="toFilterReport">吉安公路分局10月检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
@@ -64,6 +64,13 @@ export default {
   methods:{
     back(){
       this.$router.go(-1);
+    },
+    toFilterReport(){
+      this.$router.push({
+        name: 'filterReport',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
     }
   }
 }

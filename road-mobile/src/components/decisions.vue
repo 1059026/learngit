@@ -27,7 +27,7 @@
         <dt>
           <span>日期</span><span>检测单名称</span>
         </dt>
-        <dd><span>2018-10-28</span><span>吉安公路分局10月检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单</span></dd>
+        <dd><span>2018-10-28</span><span @click="toFilterUnit">吉安公路分局10月检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
@@ -45,7 +45,7 @@
         <dt>
           <span>日期</span><span>检测单名称</span>
         </dt>
-        <dd><span>2018-10-28</span><span>路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线</span></dd>
+        <dd><span>2018-10-28</span><span @click="toDecisionsLine">路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线路线</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
         <dd><span>2018-10-28</span><span>吉安公路分局10月检测单</span></dd>
@@ -71,8 +71,22 @@ export default {
   },
   methods:{
     back(){
-          this.$router.go(-1);
-        }
+      this.$router.go(-1);
+    },
+    toFilterUnit(){
+      this.$router.push({
+        name: 'filterUnit',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
+    },
+    toDecisionsLine(){
+      this.$router.push({
+        name: 'decisionsLine',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
+    }
   },
   mounted(){
     //切换

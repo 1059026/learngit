@@ -56,15 +56,28 @@ export default {
   	}
   	//搜索框过滤数据方法
   	Vue.prototype.filterData = function(){
-  		var _search = this.userSearch;
           if (_search) {
                 return this.allData.filter(function(product) {
                   return Object.keys(product).some(function(key) {
                     return String(product[key]).toLowerCase().indexOf(_search) > -1
                   })
                 })
+          }else{
+            alert(2);
           }
-          return this.showData;
+          return this.allData;
   	}
+   // Vue.filter('userSearch', function (_search) {
+   //   if (_search) {
+   //     return this.allData.filter(function(product) {
+   //       return Object.keys(product).some(function(key) {
+   //         return String(product[key]).toLowerCase().indexOf(_search) > -1
+   //       })
+   //     })
+   //   }else{
+   //     alert(2);
+   //   }
+   //   return this.showData;
+   // })
  }
 }

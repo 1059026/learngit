@@ -1,7 +1,7 @@
-<template><!--上个页面Id-->
+<template>
   <div class="sub_main detailsView">
     <div class="top_bar">
-      <a href="javascript:;" class="prevPage"></a>
+      <a href="javascript:;" class="prevPage" @click="back"></a>
       <h1>查看明细</h1>
     </div>
     <h2>新余公路管理局9月检测单</h2>
@@ -12,7 +12,7 @@
     <ul class="dataList">
       <li>
           <div class="dataRow tit">
-            <a href="javascript:;" class="rightBtn"></a>
+            <a href="javascript:;" class="rightBtn" @click="toTheMap"></a>
             <select>
               <option>G315</option>
               <option>G316</option>
@@ -86,6 +86,18 @@ export default {
   data () {
     return {
       
+    }
+  },
+  methods:{
+    back(){
+       this.$router.go(-1);
+    },
+    toTheMap(){
+      this.$router.push({
+        name: 'theMap',
+        params: {   //到下个页面的各种参数写这里
+          id:'666'
+        }})
     }
   }
 
