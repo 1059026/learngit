@@ -4,7 +4,7 @@
       <div class="bottom_nav">
           <router-link to="/desk" class="selected work_desk">工作台</router-link>
           <router-link to="/theMap" class="site">地形图</router-link>
-          <a href="javascript:;" class="userCenter">个人中心</a>
+          <router-link to="/userCenter" class="userCenter">个人中心</router-link>
       </div>
   </div>
 </template>

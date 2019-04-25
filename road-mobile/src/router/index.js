@@ -28,6 +28,11 @@ import reportDetail from '../components/reportDetail'
 import reportMX from '../components/reportMX'
 import checkReportFilter from '../components/checkReportFilter'
 import reportXQ from '../components/reportXQ'
+import userCenter from '../components/userCenter'
+import myCheckList from '../components/myCheckList'
+import myReport from "../components/myReport"
+import myPlane from "../components/myPlane"
+import mySet from "../components/mySet"
 
 Vue.use(Router)
 
@@ -171,6 +176,31 @@ export default new Router({
       path: '/reportXQ',
       name: 'reportXQ',
       component: reportXQ
+    },
+    {
+      path: '/userCenter',
+      name: 'userCenter',
+      component: userCenter
+    },
+    {
+      path: '/myCheckList',
+      name: 'myCheckList',
+      component: myCheckList
+    },
+    {
+      path: '/myReport',
+      name: 'myReport',
+      component: myReport
+    },
+    {
+      path: '/myPlane',
+      name: 'myPlane',
+      component: myPlane
+    },
+    {
+      path: '/mySet',
+      name: 'mySet',
+      component: mySet
     }
     
   ],

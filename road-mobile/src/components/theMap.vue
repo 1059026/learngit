@@ -289,8 +289,47 @@
       </div>
       <!--按钮组结束-->
     </div>
-  </div>
     <!--图层设置结束-->
+    <!--单击地图弹出导航信息开始-->
+    <div class="mapInfo">
+      <a href="javascript:;" class="toThere"></a>
+      <div class="row">
+        <select>
+          <option>S211</option>
+        </select>
+        <select>
+          <option>左幅</option>
+        </select>
+        <select>
+          <option>应急车道</option>
+        </select>
+        <input type="text" placeholder="请输入路段">
+        <div class="clear"></div>
+      </div>
+      <div class="row">
+        <span class="fl">二级公路</span>
+        <span class="fl">沥青路面</span>
+        <span class="fl">路面宽度</span>
+        <span class="beizhu">备注内容</span>
+      </div>
+      <div class="row">
+        <select class="longSelect">
+          <option>K97+000-K98+000</option>
+        </select>
+        <span class="tips">此处文本提示内容</span>
+        <b>PQI:</b>
+        <span>52.16</span>
+        <b>评定：</b>
+        <span>良</span>
+        <div class="clear"></div>
+      </div>
+      <div class="row">
+        <span class="fl"><b>主要病害</b></span>
+        <span  class="binghai">露骨、裂缝、破碎板、板角断裂、坑洞</span>
+      </div>
+    </div>
+    <!--单击地图弹出导航信息结束-->
+  </div>
 </template>
 
 <script>
@@ -365,12 +404,12 @@ export default {
 .searchIcon{display:block; float:left; width:40px; height:40px; background:url("../../static/images/ser.png") no-repeat 0 0; margin-top:5px}
 .userSearch{width:450px; height:50px; border:none; margin-left:30px; font-size:30px;}
 .saomiao{width:60px; height:40px; display:block; float:right; background:url(../../static/images/saomiao.png) no-repeat 20px 0; border-left:#ccc solid 1px; margin-top:5px;}
-.setup{display: block; width:70px; height:70px; background:url(../../static/images/setup.png) no-repeat 0 0; position:fixed; right:25px; top:200px;box-shadow:0px 2px 10px #ccc;}
-.tc{display: block; width:70px; height:70px; background:url(../../static/images/tuceng.png) no-repeat 0 0; position:fixed; right:25px; top:300px;box-shadow:0px 2px 10px #ccc;}
-.jia{display: block; width:70px; height:70px; background:url(../../static/images/jia.png) no-repeat 0 0; background-size:100%; position:fixed; right:25px; top:400px;}
-.jian{display: block; width:70px; height:70px; background:url(../../static/images/jian.png) no-repeat 0 0; background-size:100%; position:fixed; right:25px; top:470px;}
-.dw{display: block; width:70px; height:70px; background:url(../../static/images/dingwei.png) no-repeat 0 0; background-size:100%; position:fixed; left:25px; bottom:250px;}
-.displaySet{height:1220px; padding:20px; padding-bottom:150px; background:#fff; position:absolute; left:0; top:20px;  box-shadow:0px 2px 10px #ccc; border-radius:20px;}
+.setup{display: block; width:70px; height:70px; background:url(../../static/images/setup.png) no-repeat 0 0; position:fixed; left:50%; margin-left:272px; top:200px;box-shadow:0px 2px 10px #ccc;}
+.tc{display: block; width:70px; height:70px; background:url(../../static/images/tuceng.png) no-repeat 0 0; position:fixed; left:50%; margin-left:272px; top:300px;box-shadow:0px 2px 10px #ccc;}
+.jia{display: block; width:70px; height:70px; background:url(../../static/images/jia.png) no-repeat 0 0; background-size:100%; position:fixed; left:50%; margin-left:272px; top:400px;}
+.jian{display: block; width:70px; height:70px; background:url(../../static/images/jian.png) no-repeat 0 0; background-size:100%; position:fixed; left:50%; margin-left:272px; top:470px;}
+.dw{display: block; width:70px; height:70px; background:url(../../static/images/dingwei.png) no-repeat 0 0; background-size:100%; position:fixed; left:50%; margin-left:-340px; bottom:450px;}
+.displaySet{height:1220px; padding:20px; padding-bottom:150px; background:#fff; position:absolute; z-index:3; left:0; top:20px;  box-shadow:0px 2px 10px #ccc; border-radius:20px;}
 .displaySet .title{height:80px; line-height:80px;}
 .displaySet h1{font-size:32px; color:#333; text-align:center;}
 .displaySet .closeBtn{float:right; width:25px; height:25px; background:url(../../static/images/delsmall.png) no-repeat center center; margin:27px 30px 0 0;}
@@ -402,4 +441,18 @@ export default {
 .checkInfo table th{background:#eee; border:#ddd solid 1px}
 .checkInfo table tr{line-height:60px;}
 table select{width:100px}
+/*底部地图信息*/
+.mapInfo{width:720px; margin:0 auto; height:400px; background:#fff;position:fixed; bottom:0; border:#ccc solid 1px}
+.toThere{display:block;width:90px; height:90px; background:url("../../static/images/toThere.png") no-repeat 0 0; position:absolute; right:20px; top:-45px;}
+.mapInfo {padding:20px 0;}
+.mapInfo .row{padding:0 20px}
+.mapInfo select{width:120px; height:60px; float:left; margin-right:20px; background:url('../../static/images/select_down.png') no-repeat 100px center; border-radius:5px; border:#ccc solid 1px }
+.mapInfo input{width:140px; height:60px; line-height:60px; float:left; border-radius:5px; border:#ccc solid 1px; text-indent:10px;}
+.mapInfo span{height:60px; line-height:60px; margin-right:20px;}
+.mapInfo select.longSelect{width:165px; background:url('../../static/images/select_down.png') no-repeat 180px center;}
+.mapInfo select option{width:150px;}
+.mapInfo .row{height:80px; overflow:hidden;}
+.mapInfo span.beizhu{display:block; float:left; width:300px; overflow:hidden; text-overflow:ellipsis; white-space: nowrap;}
+.mapInfo span.tips{display:block; float:left; width:200px; overflow:hidden; text-overflow:ellipsis; white-space: nowrap;}
+.mapInfo span.binghai{display:block; float:left; width:520px; overflow:hidden; text-overflow:ellipsis; white-space: nowrap;}
 </style>
